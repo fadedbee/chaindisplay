@@ -1,0 +1,49 @@
+div.chain {
+  width: 900px;  
+  margin: auto;
+}
+
+div.row {
+    height: 30px;
+    margin: 10px 0 10px 0;
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+div.row > div {
+    width: 400px;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center; 
+    align-items: center;
+    vertical-align: middle;
+}
+
+div.persons {
+    background: #ddd;
+}
+
+div.row > div.personsx {
+    background: #ddd;
+    width: 840px;
+}
+
+div.minor {
+    color: #777;
+}
+
+div.property {
+    background: #eee;
+}
+
+span.check {
+    float: right;
+}
+
+span.conveyancer {
+    float: right;
+    color: #777;
+}
