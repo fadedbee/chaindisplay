@@ -1,3 +1,13 @@
+div.intro, div.comments {
+  width: 900px;  
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+div.comments {
+  margin-top: 50px;
+}
+
 div.chain {
   width: 900px;  
   margin: auto;
@@ -35,12 +45,28 @@ div.minor {
     color: #777;
 }
 
+div.minor > span.check {
+    margin-left: 10px;
+}
+
 div.property {
     background: #eee;
 }
 
 span.check {
     float: right;
+}
+
+span.tick {
+    float: right;
+    color: #070;
+    margin-left: 5px;
+}
+
+span.cross {
+    float: right;
+    color: #700;
+    margin-left: 5px;
 }
 
 span.conveyancer {
